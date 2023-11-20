@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+        function sumar () {
+
+            var num1 = parseInt(prompt ("numero 1"));
+            var num2 = parseInt(prompt ("numero 2"));
+            
+            alert(num1+num2);
+        }
+
+        function restar() {
+    var num1 = parseInt(prompt("Ingrese el primer número"));
+    var num2 = parseInt(prompt("Ingrese el segundo número"));
+    
+    alert(num1 - num2);
+}
+
+function multiplicar() {
+    var num1 = parseInt(prompt("Ingrese el primer número"));
+    var num2 = parseInt(prompt("Ingrese el segundo número"));
+    
+    alert(num1 * num2);
+}
+
+function dividir() {
+    var num1 = parseFloat(prompt("Ingrese el numerador"));
+    var num2 = parseFloat(prompt("Ingrese el denominador"));
+
+    // Verificar si el denominador es cero
+    if (num2 === 0) {
+        alert("Error: No se puede dividir por cero");
+    } else {
+        alert(num1 / num2);
+    }
+}
+
+    
+    //metodo restar
+
+    //metodo multiplicar
+
+    //metodo dividir
+    </script>
+
+    
+
+
+    
+
+
+</head>
+<body>
+    <input type ="button" onclick=" alert (sumar (5,5))" value="sumar"/>
+    <input type ="button" onclick=" alert (restar (5,5))" value="restar"/>
+    <input type ="button" onclick=" alert (dividir (5,5))" value="dividir"/>
+    <input type ="button" onclick=" alert (multiplicar (5,5))" value="multiplicar"/>
+
+</body>
+</html>
